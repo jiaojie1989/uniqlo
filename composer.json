@@ -1,0 +1,21 @@
+{
+    "name": "jiaojie/uniqlo",
+    "description": "Crawl uniqlo.cn for sellings.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JIAO Jie",
+            "email": "thomasjiao@vip.qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "guzzlehttp/guzzle": "~6.2.0",
+        "symfony/dom-crawler": "~3.1.0",
+        "symfony/css-selector": "~3.1.0"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
